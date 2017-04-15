@@ -1,89 +1,52 @@
-![](_assets/images/documentation/chalk-intro@2x.png)
+# Kasper
 
-Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll.
+> This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 
+Feel free to fork, change, modify and re-use it.
 
-## Overview
+## Installation
 
-Features:
-  - Dark and Light theme.
-  - Filter on tags.
-  - customizable pagination.
-  - Beautified link sharing in Facebook and other social media.
-  - Automatic time to read post indicator.
-  - Automatic RSS feed.
-  - About page.
-  - 404 page.
-  - SEO optimized.
-  - PageSpeed optimized.
-  - Cross browser support (supports all modern browsers).
-  - Media embed for videos.
-  - Enlarge images on click (like Medium).
-  - Support for local fonts
+    git clone https://github.com/rosario/kasper.git
+    cd kasper
+    gem install jekyll
+    gem install pygments.rb
 
-Integrations
-  - [Google Analytics](https://analytics.google.com/analytics/web/)
-  - [Google Fonts](https://fonts.google.com/)
-  - [Disqus](https://disqus.com/)
-  - [Ionicons](http://ionicons.com/)
-  - Social media links
+## How to use it
 
-Used tools
-  - [Autoprefixer](https://github.com/postcss/autoprefixer)
-  - [Bower](http://bower.io/)
-  - [Circle CI](https://circleci.com/)
-  - [Html-proofer](https://github.com/gjtorikian/html-proofer)
-  - [Jekyll](http://jekyllrb.com/)
-  - [Jekyll assets](https://github.com/jekyll/jekyll-assets)
-  - [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap)
-  - [HTML5 Boilerplate](https://html5boilerplate.com/) (Influenced by)
-  - [Kickster](http://kickster.nielsenramon.com/)
-  - [Retina.js](http://imulus.github.io/retinajs/)
-  - [STACSS](http://stacss.nielsenramon.com/)
+Build page and start local web server
 
-## Usage
+    jekyll serve
 
-### Installation
+Build page into `_site` folder
 
-If you haven't installed the following tools then go ahead and do so (make sure you have [Homebrew](http://brew.sh/) installed):
+    jekyll build
 
-    brew install ruby
-    brew install npm
+## Kasper theme includes
 
-On windows, install Ruby and Node with the installers found here:
+* Pagination
+* Rss
+* Google Analytics Tracking code
+* Code Syntax Highlight
+* Author's profile with picture
+* Disqus comments
 
-  - [Ruby](https://rubyinstaller.org/)  
-  - [Node.js](https://nodejs.org/en/download/)
+## Screenshots
 
-Next setup your environment:
+![index page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-index.png)
+![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
 
-    bin/setup
 
-### Development
+## Thanks
 
-Run Jekyll:
+Most of the work has been already done by the Ghost team, I've just ported Casper to Jekyll. 
+I've also added few things specific to Jekyll and some minor style changes.
 
-    bundle exec jekyll serve
+## Copyright & License
 
-## Deploy to GitHub Pages
+Copyright (C) 2013 Ghost Foundation - Released under the MIT License.
 
-Before you deploy, commit your changes to any working branch except the `gh-pages` one then run the following command:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-    bin/deploy
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-**Important note**: Chalk does not support the standard way of Jekyll hosting on GitHub Pages. You need to deploy your working branch with the `bin/deploy` script. This is because Chalk uses Jekyll plugins that aren't supported by GitHub pages.
-
-You can find more info on how to use the gh-pages branch and a custom domain [here](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
-
-[View this](https://github.com/nielsenramon/kickster#automated-deployment-with-circle-ci) for more info about automated deployment with Circle CI.
-
-## License
-
-MIT License
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/chalk/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
