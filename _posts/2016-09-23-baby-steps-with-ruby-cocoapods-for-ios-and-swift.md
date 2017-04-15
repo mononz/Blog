@@ -3,6 +3,9 @@ layout: post
 title:  Baby steps with Ruby/CocoaPods for iOS and Swift
 date:   2016-09-23 04:00:29
 categories: iOS
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 Ruby was such a sweat to install. In the end I opted to use rvm to install and manage Ruby.

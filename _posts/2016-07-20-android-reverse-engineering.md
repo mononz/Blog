@@ -3,6 +3,9 @@ layout: post
 title:  Android Reverse Engineering
 date:   2016-07-20 14:32:27
 categories: Android
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 As an Android developer, I feel it is important to know how an Android package is constructed and how you can protect your codebase from being copied by others.

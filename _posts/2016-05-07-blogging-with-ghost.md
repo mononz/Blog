@@ -3,6 +3,9 @@ layout: post
 title:  Blogging with Ghost
 date:   2016-05-07 13:44:06
 categories: Ghost
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 I've been meaning to try out https://ghost.org/ for a long time and I finally found a spare moment install it on my vps and give it a proper try. First impression... amazing!

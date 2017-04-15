@@ -3,7 +3,11 @@ layout: post
 title:  Google Compute Cloud - Investigation
 date:   2016-05-07 13:23:40
 categories: Linux
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
+
 
 I recently started looking at using Google Compute Cloud for quickly deploying projects without having to worry about server configuration constantly. Here's what I found.
 

@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: post
 title: Donation
 class: 'post'
 navigation: True
 logo: 'assets/images/ghost.png'
 current: donation
 cover: 'assets/images/charity.jpg'
+subclass: 'post'
 ---
 
 ###### Like what you see here?

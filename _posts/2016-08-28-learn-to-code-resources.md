@@ -3,6 +3,9 @@ layout: post
 title:  Learn 2 Code - Good Resources
 date:   2016-08-28 02:36:59
 categories: Programming
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 #### What language should I learn?

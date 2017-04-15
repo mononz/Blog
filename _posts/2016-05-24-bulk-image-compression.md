@@ -3,6 +3,9 @@ layout: post
 title:  Bulk Image Compression
 date:   2016-05-24 00:07:19
 categories: Random
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 Need to resize or compress images in bulk often? I would generally use https://tinypng.com/ but with a max of 20 images at a time, it can still be a painful task manipulating >500 images.

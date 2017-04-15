@@ -3,6 +3,9 @@ layout: post
 title:  Stealing databases!
 date:   2016-05-16 04:25:53
 categories: Android
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 In my Paragon application 'Paradex', I have implemented a fairly background sync procedure to keep various sqlite database tables up to date.

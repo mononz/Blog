@@ -3,6 +3,9 @@ layout: post
 title:  Resize pngs by bulk
 date:   2016-06-01 02:47:21
 categories: Random
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 http://forum.linuxcareer.com/threads/1644-Batch-image-resize-using-linux-command-line

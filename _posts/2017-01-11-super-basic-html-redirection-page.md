@@ -3,6 +3,9 @@ layout: post
 title:  Super basic html redirection page w/ google analytics
 date:   2013-11-10 10:18:00
 categories: Web
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 ```

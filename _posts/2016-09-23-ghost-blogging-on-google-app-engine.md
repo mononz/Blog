@@ -3,6 +3,9 @@ layout: post
 title:  Ghost Blogging on Google App Engine
 date:   2016-09-23 01:37:02
 categories: Ghost
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 

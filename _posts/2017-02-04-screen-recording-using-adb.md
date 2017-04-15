@@ -3,6 +3,9 @@ layout: post
 title:  Screen recording using ADB
 date:   2017-02-04 10:08:39
 categories: Android
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 Can easily record your screen using the android debug bridge (adb). I personally find it is the easiest way to create short clips for sharing with others whilst developing my apps.

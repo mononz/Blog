@@ -3,6 +3,9 @@ layout: post
 title:  Android Studio 2.2 preview 3 zipalign errors on playstore?!
 date:   2016-06-18 17:29:05
 categories: Android
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 When things go well, life is good; When things don't work anymore, we get reminded how easy things were before.

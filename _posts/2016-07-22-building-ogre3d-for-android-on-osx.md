@@ -3,6 +3,9 @@ layout: post
 title:  Building Ogre3D for Android (on OSX)
 date:   2016-07-22 00:06:29
 categories: Ogre3D
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 #### Prerequisites

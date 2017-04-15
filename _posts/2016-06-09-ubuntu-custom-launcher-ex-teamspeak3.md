@@ -3,6 +3,9 @@ layout: post
 title:  Ubuntu Custom Launcher (Ex. Teamspeak3)
 date:   2016-06-09 04:16:41
 categories: Linux
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 

@@ -3,6 +3,9 @@ layout: post
 title:  Android Top Tips
 date:   2013-11-10 10:18:00
 categories: Android
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 values/strings.xml

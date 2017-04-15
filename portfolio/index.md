@@ -6,6 +6,7 @@ navigation: True
 logo: 'assets/images/ghost.png'
 current: portfolio
 cover: 'assets/images/android.jpg'
+subclass: 'post'
 ---
 
 A collection of projects that I have worked on over the past few years

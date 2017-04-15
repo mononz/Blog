@@ -3,6 +3,9 @@ layout: post
 title:  Android Lambdas using Java7
 date:   2017-02-07 10:13:04
 categories: Android
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 Tired of writing out `new View.OnClickListener() {...} ` even though it is an autocomplete...? screw it! There is a much nicer way using Java 8 lambdas!!

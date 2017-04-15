@@ -3,6 +3,9 @@ layout: post
 title:  Let's Encrypt with Let's Encrypt
 date:   2017-01-08 06:30:04
 categories: Linux
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 SSL'ing up my sites has always been on my todo list. I decided to make my own 'cdn' using **nginx** on one of my **debian** servers and thought I really should secure it.

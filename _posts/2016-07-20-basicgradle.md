@@ -3,6 +3,9 @@ layout: post
 title:  Basic Gradle Awesomeness
 date:   2016-07-20 15:08:11
 categories: Android
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 Want to hide hardcoded constants like URLs, API keys and other credentials? Gradle has a great place for these.

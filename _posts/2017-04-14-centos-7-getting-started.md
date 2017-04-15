@@ -3,6 +3,9 @@ layout: post
 title:  CentOS 7 - Getting started
 date:   2017-04-14 05:38:19
 categories: Linux
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 Provision a new VPS with CentOS 7. [Vultr](http://www.vultr.com/?ref=7079263) is awesome and very affordable, do check it out if you haven't already.

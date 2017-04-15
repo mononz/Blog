@@ -3,6 +3,9 @@ layout: post
 title:  Ghost syntax highlighting with Prismjs
 date:   2016-05-25 02:44:04
 categories: Ghost
+subclass: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 Currently, I like the default casper theme in ghost. Its minimal, focusses on the content and does the job I want. One thing however is missing, syntax highlighting for code snippets. I did a bit of research and found [Prism](http://prismjs.com/). It is lightweight, simple and looks great!
