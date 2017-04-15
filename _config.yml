@@ -1,16 +1,17 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: mononz
+description: Android App Developer, NodeJS Enthusiast, Electronics Engineer
+meta_description: "Android App Developer, NodeJS Enthusiast, Electronics Engineer"
+cover: https://static.mononz.net/ghost/robotic.jpg
 
 markdown: kramdown
 highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
+domain_name: 'https://mononz.net'
+google_analytics: 'UA-66651130-6'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'https://mononz.net/'
+author:         'Jared Hall'
