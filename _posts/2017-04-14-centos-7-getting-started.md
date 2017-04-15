@@ -23,18 +23,18 @@ Root has increased privileges to do nearly everything on your server. And becaus
 
 Create a user with the following command (make sure you are currently logged in as root)
 ```
-# adduser steve
+# adduser admin
 ```
-Add a strong password for the new user 'steve'
+Add a strong password for the new user 'admin'
 ```
-# passwd steve
+# passwd admin
 ```
 
 Sometimes we need to administrate our server. We can avoid having logging in as root by adding the new user to 'super user' group. This way the user can run administrative actions by using the word 'sudo' before a command. In CentOS 7, users should be part of the 'wheel' group.
 
 As root, run the command
 ```
-# gpasswd -a steve wheel
+# gpasswd -a admin wheel
 ```
 
 ### 3. Public Key (Suggested)
@@ -56,12 +56,12 @@ Accept all, or add a new name (I called mine vultr)
 Can simply use the 'ssh-copy-id' command to copy our new key on our local machine to the remote server. Keys will be added to the remote users '.ssh/authorized_keys' file.
 
 ```
-$ ssh-copy-id -i ~/.ssh/vultr.pub steve@YOUR_SERVER_IP
+$ ssh-copy-id -i ~/.ssh/vultr.pub admin@YOUR_SERVER_IP
 ```
 
 Try an ssh login to your server
 ```
-$ ssh steve@YOUR_SERVER_IP
+$ ssh admin@YOUR_SERVER_IP
 ```
 
 You no longer should require a password to login as your local and remote keys allow you entry.
