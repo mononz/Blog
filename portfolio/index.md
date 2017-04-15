@@ -1,13 +1,14 @@
 ---
 layout: page
-title:  Portfolio
-date:   2016-07-20 09:35:41
-categories: Random
+title: Portfolio
+class: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
+current: portfolio
+cover: 'assets/images/android.jpg'
 ---
 
 A collection of projects that I have worked on over the past few years
-
-----------
 
 # Android Lead Developer
 

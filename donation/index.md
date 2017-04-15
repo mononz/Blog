@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  Donation
-date:   2016-12-21 02:20:26
-categories: Random
-cover: https://static.mononz.net/ghost/content/donation/charity.jpg
+title: Donation
+class: 'post'
+navigation: True
+logo: 'assets/images/ghost.png'
+current: donation
+cover: 'assets/images/charity.jpg'
 ---
 
 ###### Like what you see here?
