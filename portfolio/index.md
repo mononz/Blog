@@ -18,7 +18,7 @@ List of android applications that I have acted as primary or solo developer on
 **Mononz - Personal Project**
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/portfolio/paradex.png" alt="Paradex" style="width:100%">
+<img src="/assets/content/portfolio/paradex.png" alt="Paradex" style="width:100%">
 <figcaption><center>Paradex: Hero Detail</center></figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ Check it out on [Google Play](https://play.google.com/store/apps/details?id=net.
 **Creative Intersection - Professional**
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/portfolio/asesspal.png" alt="AssessPal" style="width:100%">
+<img src="/assets/content/portfolio/asesspal.png" alt="AssessPal" style="width:100%">
 <figcaption><center>AssessPal: 3D Model / Add Locations</center></figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ Check it out on [Google Play](https://play.google.com/store/apps/details?id=net.
 **Creative Intersection - Professional**
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/portfolio/iseekplant.png" alt="iseekplant" style="width:50%">
+<img src="/assets/content/portfolio/iseekplant.png" alt="iseekplant" style="width:50%">
 <figcaption><center>iseekplant: Plant Search</center></figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ Check it out on [Google Play](https://play.google.com/store/apps/details?id=au.c
 **Creative Intersection - Professional**
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/portfolio/pocketkeez.png" alt="PocketKeez" style="width:100%">
+<img src="/assets/content/portfolio/pocketkeez.png" alt="PocketKeez" style="width:100%">
 <figcaption><center>PocketKeez: House Detail</center></figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ Check it out on [Google Play](https://play.google.com/store/apps/details?id=com.
 **Creative Intersection - Professional**
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/portfolio/idfish.png" alt="iDfish" style="width:100%">
+<img src="/assets/content/portfolio/idfish.png" alt="iDfish" style="width:100%">
 <figcaption><center>iDfish: Fish Detail</center></figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ Check it out on [Google Play](https://play.google.com/store/apps/details?id=au.c
 **Mononz - Personal Project**
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/portfolio/psarchives.png" alt="PSArchives" style="width:100%">
+<img src="/assets/content/portfolio/psarchives.png" alt="PSArchives" style="width:100%">
 <figcaption><center>PSArchives: Character Overview</center></figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ Check it out on [Google Play](https://play.google.com/store/apps/details?id=net.
 **Mononz - Personal Project**
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/portfolio/lazytag.png" alt="LazyTag" style="width:100%">
+<img src="/assets/content/portfolio/lazytag.png" alt="LazyTag" style="width:100%">
 <figcaption><center>LazyTag: Saved tags</center></figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ Check it out on [Google Play](https://play.google.com/store/apps/details?id=net.
 **Mononz - Personal Project**
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/portfolio/lastepisode.png" alt="LastEpisode" style="width:100%">
+<img src="/assets/content/portfolio/lastepisode.png" alt="LastEpisode" style="width:100%">
 <figcaption><center>LastEpisode: Shows view</center></figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ Check it out on <a href="https://play.google.com/store/apps/details?id=net.monon
 **Creative Intersection - Professional**
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/portfolio/worksafeguardian.png" alt="WorkSafeGuardian" style="width:50%">
+<img src="/assets/content/portfolio/worksafeguardian.png" alt="WorkSafeGuardian" style="width:50%">
 <figcaption><center>WorkSafe Guardian: New Alert</center></figcaption>
 </figure>
 
@@ -115,7 +115,7 @@ Check it out on [Google Play](https://play.google.com/store/apps/details?id=au.c
 **Mononz - Personal Project**
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/portfolio/monote.png" alt="Monote" style="width:50%">
+<img src="/assets/content/portfolio/monote.png" alt="Monote" style="width:50%">
 <figcaption><center>Mononz: Pritoritised ToDo List</center></figcaption>
 </figure>
 
@@ -126,7 +126,7 @@ Check it out on <a href="https://play.google.com/store/apps/details?id=net.monon
 **Mononz - Contract Work**
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/portfolio/tepari.png" alt="TePari Connect" style="width:50%">
+<img src="/assets/content/portfolio/tepari.png" alt="TePari Connect" style="width:50%">
 <figcaption><center>Te Pari Connect: Splash Screen</center></figcaption>
 </figure>
 
@@ -143,7 +143,7 @@ List of android applications that I have assisted in developing.
 **Creative Intersection - Professional**
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/portfolio/teamdannygreen.png" alt="Team Danny Green" style="width:50%">
+<img src="/assets/content/portfolio/teamdannygreen.png" alt="Team Danny Green" style="width:50%">
 <figcaption><center>Team Danny Green: Food Plan</center></figcaption>
 </figure>
 
@@ -154,7 +154,7 @@ Check it out on [Google Play](https://play.google.com/store/apps/details?id=au.c
 **Creative Intersection - Professional**
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/portfolio/rondo.png" alt="Rondo" style="width:50%">
+<img src="/assets/content/portfolio/rondo.png" alt="Rondo" style="width:50%">
 <figcaption><center>Rondo: Main Screen</center></figcaption>
 </figure>
 

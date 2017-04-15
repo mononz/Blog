@@ -5,7 +5,7 @@ class: 'page'
 navigation: True
 logo: 'assets/images/ghost.png'
 current: about
-cover: 'assets/images/charity.jpg'
+cover: 'assets/images/about.png'
 ---
 
 This is a demo blog for Ghost, it contains dummy content which allows you to click around and see what a Ghost blog running the default theme looks like.

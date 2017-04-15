@@ -12,7 +12,7 @@ When things go well, life is good; When things don't work anymore, we get remind
 
 I updated to the latest Canary Android studio today - version 2.2 preview 3. Unfortunately, I was due to push out a minor app update when i was presented the following error on the playstore!
 
-<img src="https://static.mononz.net/ghostblog/content/zipalign_error/upload.png" alt="uploaderror" style="width:80%">
+<img src="/assets/content/zipalign_error/upload.png" alt="uploaderror" style="width:80%">
 
 Googling around, I found a few other developers in the same boat and decided to sign it manually like we used to do a couple years ago.
 
@@ -27,11 +27,11 @@ Okay, let's go!
 
 Firstly, just make sure you comment out the release signingConfig in your buildTypes section of the app level build.gradle file as below. If you don't use buildTypes, no need to worry.
 
-<img src="https://static.mononz.net/ghostblog/content/zipalign_error/gradle.png" alt="build.gradle" style="width:80%">
+<img src="/assets/content/zipalign_error/gradle.png" alt="build.gradle" style="width:80%">
 
 Now, open up the side gradle tab and double click the 'assembleRelease' entry as follows.
 
-<img src="http://static.mononz.net/ghostblog/content/zipalign_error/sidebar.png" alt="gradle sidebar" style="width:60%">
+<img src="/assets/content/zipalign_error/sidebar.png" alt="gradle sidebar" style="width:60%">
 
 
 You should now find an unaligned apk in the directory `app/build/outputs/apk/app-release-unsigned.apk`
@@ -65,7 +65,7 @@ This should be all that is needed to prep your .apk for the PlayStore!
 
 If all goes well, it's time for release!
 
-<img src="https://static.mononz.net/ghostblog/content/zipalign_error/current.png" alt="release" style="width:80%">
+<img src="/assets/content/zipalign_error/current.png" alt="release" style="width:80%">
 
 ###### Final thoughts
 

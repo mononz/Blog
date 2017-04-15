@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Donation
+class: 'page'
 navigation: True
 logo: 'assets/images/ghost.png'
 current: donation

@@ -124,9 +124,9 @@ You should check auto renewal by doing a dry run.
 certbot renew --dry-run
 ```
 
-And to confirm, loading up http://static.mononz.net/ghostblog/mononz.png auto redirects me to https://static.mononz.net/ghostblog/mononz.png
+And to confirm, loading up http://static.mononz.net/planetside/84832.png auto redirects me to https://static.mononz.net/planetside/84832.png
 
 <figure>
-<img src="https://static.mononz.net/ghostblog/content/lets_encrypt/secure.png" alt="LastEpisode" style="width:100%">
+<img src="/assets/content/lets_encrypt/secure.png" alt="LastEpisode" style="width:100%">
 <figcaption><center>AWESOME!</center></figcaption>
 </figure>

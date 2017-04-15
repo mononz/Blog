@@ -74,16 +74,16 @@ At the time of writing this post, the latest version of gradle-retrofit is 3.5.0
 
 Using Android Studio? click on the line suggesting the change. Then press `alt`+`return` (on a mac). Simply select `Replace with lambda` and it will automagically (with minimal effort) turn this long operation
 
-<img src="https://static.mononz.net/ghost/content/retrolambda/alt-return-before.png" alt="alt return tip before" style="width:80%">
+<img src="/assets/content/retrolambda/alt-return-before.png" alt="alt return tip before" style="width:80%">
 
 into this short and sweet operation!
 
-<img src="https://static.mononz.net/ghost/content/retrolambda/alt-return-after.png" alt="alt return tip after" style="width:80%">
+<img src="/assets/content/retrolambda/alt-return-after.png" alt="alt return tip after" style="width:80%">
 
 ####Pro Tip 2 - Even less effort!
 
 In Android studio, click on the `Analyze` Tab then `Run inspection by name...`, type in something like *can be replace with lambda* and run the `Anonymous type can be replaced with lamba` inspection.
 
-<img src="https://static.mononz.net/ghost/content/retrolambda/inspection.png" alt="run inspection by name" style="width:80%">
+<img src="/assets/content/retrolambda/inspection.png" alt="run inspection by name" style="width:80%">
 
 Check the Inspection results and quickly go through each result and `alt`+`enter` them all as specified above. Done and Dusted nice and quick!

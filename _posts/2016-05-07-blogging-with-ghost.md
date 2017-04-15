@@ -125,7 +125,7 @@ Install pm2 globally with npm and start your ghost with
 
 Should now have a process running like so
 
-<img src="http://static.mononz.net/ghostblog/content/ghost/pm2.png" alt="pm2 list" style="width:80%">
+<img src="/assets/content/ghost/pm2.png" alt="pm2 list" style="width:80%">
 
 and you should be able to still see your site running on http://www.mononz.net:3000
 
@@ -137,7 +137,7 @@ Lets make pm2 automatically bring up our website if the server ever goes offline
 
 You'll be given a command to run as sudo as per below. Do that command and you'll be all sorted for your blog to startup with your server!
 
-<img src="http://static.mononz.net/ghostblog/content/ghost/pm2-startup.png" alt="pm2 startup" style="width:80%">
+<img src="/assets/content/ghost/pm2-startup.png" alt="pm2 startup" style="width:80%">
 
 Only one step away from finishing our setup
 

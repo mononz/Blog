@@ -14,7 +14,7 @@ As an Android developer, I feel it is important to know how an Android package i
 
 An Android APK is a essentially just a zip file. You can rename it as a .zip and extract the main dex file and all other assets, drawables and other binary data.
 
-<img src="https://static.mononz.net/ghostblog/content/decomplile/inside_apk.png" alt="inside an apk" style="width:80%">
+<img src="/assets/content/decomplile/inside_apk.png" alt="inside an apk" style="width:80%">
 
 The classes.dex file is where all the java source is compiled. To access the java classes inside, we need to convert this dex to a jar. For this, I used the [Jadx](https://github.com/mononz/jadx) decompiler.
 
