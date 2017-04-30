@@ -43,15 +43,15 @@ To secure the our user and the server more so, we should require a private SSH k
 
 If you have a key setup already, skip to 'Copy public key'
 
-**Generate keys**
+__Generate keys__
 
-On your local machine run
+On your __local machine__ run
 ```
 $ ssh-keygen
 ```
 Accept all, or add a new name (I called mine vultr)
 
-**Copy Public key**
+__Copy Public key__
 
 Can simply use the 'ssh-copy-id' command to copy our new key on our local machine to the remote server. Keys will be added to the remote users '.ssh/authorized_keys' file.
 
@@ -66,7 +66,7 @@ $ ssh admin@YOUR_SERVER_IP
 
 You no longer should require a password to login as your local and remote keys allow you entry.
 
-**Can't login?**
+__Can't login?__
 Ensure your key is added to your ssh-agent on your local machine
 ```
 $ ssh-add -K ~/.ssh/vultr
@@ -98,3 +98,7 @@ now reload ssh
 ### 5. Party!
 
 You are all done!
+
+### Bonus
+
+Setup SSH agent forwarding by visiting my post [here](https://mononz.net/ssh-agent-forwarding)
