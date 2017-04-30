@@ -14,21 +14,21 @@ We can use a technique called SSH Agent forwarding which will use our local mach
 
 Firstly, check your current ssh keys in your agent
 
-```
-ssh-agent -l
+``` shell
+$ ssh-agent -l
 ```
 
 Got some there? great! If not add your keys using
 
-```
-ssh-add ~/.ssh/id_rsa
+``` shell
+$ ssh-add ~/.ssh/id_rsa
 ```
 
 __Aside: Help! macOS keep forgetting my ssh keys__
 
 Mac will forget our ssh-keys on each reboot... Fun times... Alas! starting in macOS Sierra, Apple has added the UseKeychain config option for SSH configs to solve this. Let's enable that by adding the following to the file `~/.ssh/config` (Doesn't exist? create it)
 
-```
+``` plaintext
 Host *
   UseKeychain yes
 ```
@@ -37,7 +37,7 @@ Host *
 
 If you get the message below, you are good to go!
 
-```
+``` shell
 $ ssh -T git@github.com
 Hi username! You've successfully authenticated, but GitHub does not provide shell access.
 ```
@@ -48,7 +48,7 @@ Else, check that your key in your agent is actually linked to your github accoun
 
 Open up the file `~/.ssh/config` (Doesn't exist? create it) and enter the following
 
-```
+``` plaintext
 Host example.com
   ForwardAgent yes
 ```
@@ -59,7 +59,7 @@ __DO NOT__ use a wildcard like `Host *`.  You really wouldn't want to provide yo
 
 ssh into your server and run that git@github.com command again
 
-```
+``` shell
 $ ssh user@example.com
 $ ssh -T git@github.com
 ```
