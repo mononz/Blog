@@ -32,35 +32,30 @@ This shouldn't take more than 5-10mins to setup.
 - Copy the `prism.css` file to the `assets/css/prism.css` path
 - Edit the default.hbs file in your current theme directory adding a link to the css at the top
 
-```language-markup
+```language-html
 ...
-  {{!-- Styles'n'Scripts --}}
-  <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
-  {{!-- Prism.js --}}
-  <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />
-  {{!-- Font --}}
+  <link rel="stylesheet" type="text/css" href="css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="css/prism.css" />
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 ...
 ```
 
  and a script to the js at the bottom
 
-```language-markup
+```language-html
 ...
-  {{!-- The main JavaScript file for Casper --}}
-  <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
-  {{!-- Prism.js --}}
-  <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/prism.js"></script>
 ...
 ```
 
-And thats it! You are good to go. Start generating content with the new syntax highlighting like so
+And that's it! You are good to go. Start generating content with the new syntax highlighting like so
 
-```language-markdown
+````language-markup
   ```language-markup
     <h1>Hello!!</h1>  
   ```
-```
+````
 
 which will render as
 
